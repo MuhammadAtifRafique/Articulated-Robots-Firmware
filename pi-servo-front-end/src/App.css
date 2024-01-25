@@ -1,0 +1,152 @@
+.mobile-arrow{
+  .arrow-button{
+    svg{
+      font-size: 50px !important;
+    }
+  }
+  .tab-arrow{
+    margin-top: -28% !important;
+  }
+}
+
+/* .arrow-button:hover{
+  border-color: rgb(130, 130, 130) !important;
+} */
+
+@media screen and (max-width: 900px) and (min-width: 426px) {
+  .camera-stream{
+    margin-left: 17%;
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 426px){
+  .camera-stream{
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+}
+
+.arrow-button{
+  background-color: #1f3126 !important;
+  color: #74e5af !important;
+  border: 4px solid #292935 !important;
+  border-radius: 50px;
+  box-shadow: inset 0 0 0px 2px #000000 !important;
+  svg{
+    font-size: 70px;
+  }
+}
+.arrow-button:active{
+  border: 4px solid #5d5d69 !important;
+}
+.arnum-row-button{
+    border: 4px solid #292935;
+    border-radius: 50px;
+    color: #74e5af;
+    background-color: #1f3126;
+    box-shadow: 0px 0px 0px 3px #000 inset;
+}
+.arnum-row-button svg{
+    height: 70px;
+    width: 70px;
+}
+
+.pin-code{
+  padding: 5px 15px;
+  background: #161623;
+  box-shadow: 0 2px 0px 0px #986a07;
+  border-radius: 6px;
+  height: 2em;
+  width: 1.5em;
+}
+
+.tab-arnum-row{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+}
+
+.lock-icon, .lock-text, .pin-code{
+    color: rgb(212, 212, 212);
+}
+
+.lock-text{
+    font-size: 20px;
+}
+
+.pad {
+    font-size: 2em;
+    background-color: #161623;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: fit-content;
+    box-shadow: 0em 0em 0.5em 0.1em #00000055;
+    padding-bottom: 0.2em;
+    border-radius: 20px;
+  }
+
+  .pin-card{
+    background-color: #121220;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  
+  .num-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .key {
+    padding: 0px;
+    background-color: transparent;
+    outline: 0px;
+    border: 0px;
+    border-radius: 10em;
+    width: 2em;
+    height: 2em;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(212, 212, 212);
+  }
+  
+  .key:hover {
+    background-color: #00000022;
+  }
+  
+  .key-action {
+    padding: 0px;
+    background-color: transparent;
+    outline: 0px;
+    border: 0px;
+    border-radius: 10em;
+    width: 2em;
+    height: 2em;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(212, 212, 212);
+  }
+  
+  .key-action:hover {
+    background-color: #00000022;
+  }
+  
+  .input {
+    padding: 0.5em;
+    border: 0px;
+    text-align: center;
+  }
+  
+  .status {
+    font-size: 0.3em;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    color: dodgerblue;
+  }
+  
