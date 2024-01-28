@@ -1,3 +1,7 @@
+This Articulated Robot project is based on video streaming and 12 servo motors with algorithm.
+In this we have to use Flask(For API's) and socketio(For video streaming). And made website app in React library based.
+I used Webcam and for the servo motors I use HAT board.
+
 Libs Installation:-
     1.	Nodejs and npm
     2.	Apache2
